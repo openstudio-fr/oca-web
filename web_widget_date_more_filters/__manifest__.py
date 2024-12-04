@@ -5,14 +5,17 @@
     "category": "web",
     "version": "16.0.1.0.0",
     "website": "https://github.com/OCA/web",
-    "author": "Elise Gigot <egigot@openstudio.fr>",
+    "author": "Elise Gigot <egigot@openstudio.fr>, Odoo Community Association (OCA)",
     "depends": ["web", "hr_timesheet"],
-    "summary": "Add some filters to the date filters wdidget",
+    "summary": "Add some filters to the date filters widget",
     "license": "AGPL-3",
     "installable": True,
     "assets": {
         "web.assets_backend": [
-            "web_widget_date_more_filters/static/src/js/web_widget_date_more_filters.js",
+            "web_widget_date_more_filters/static/src/js/web_widget_date_more_filters.esm.js",
+        ],
+        "web.qunit_suite_tests": [
+            "web_widget_date_more_filters/static/tests/widget_filter_menu_tests.esm.js",
         ],
     },
 }

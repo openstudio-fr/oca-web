@@ -27,6 +27,13 @@ msgstr "Cette semaine"
 #. odoo-javascript
 #: code:addons/static/src/js/hr_timesheet_custom_date_filter.js:0
 #, python-format
+msgid "Last week"
+msgstr "La semaine dernière"
+
+#. module: hr_timesheet_custom_date_filter
+#. odoo-javascript
+#: code:addons/static/src/js/hr_timesheet_custom_date_filter.js:0
+#, python-format
 msgid "Last 7 days"
 msgstr "7 derniers jours"
 
